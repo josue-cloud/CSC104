@@ -1,0 +1,36 @@
+# CSC104
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="=utf-8"> 
+   <head>
+        <title>The pros and cons of my major.</title>
+    </head>
+    <body bgcolor="cyan">
+        <center>       
+            <!-- lines below should display a list of pros of software engineering-->
+            <h1>Pros of studuing engineering</h1>
+            <ol>Make a boat load of money.</ol>
+            <img src="C:\Users\Josue Joseph\Downloads\money.jpg" 
+            width="400"
+            height="400">
+            <ol>I get to do what i love.</ol>
+            <img src="C:\Users\Josue Joseph\Downloads\istockphoto-1017296544-612x612.jpg"
+            width="400"
+            height="400">
+            <!--Lines below should display a list of cons of software engineering-->
+            <h2>Cons of studying engineering</h2>
+            <ul>Insane Workload</ul>
+            <img src="C:\Users\Josue Joseph\Downloads\overloaded-teacher-cropped-p3d9dhcilspxie1sdlukk45gw458furpcm4a27y7uo.gif"
+            width="400"
+            height="400">
+            <ul>Getting the constant urge to drop out.</ul>
+            <img src="C:\Users\Josue Joseph\Downloads\10-questions-ask-quitting-day-job.jpg"
+            width="400"
+            height="400">
+            <ul>Mass Layoffs</ul>
+            <img src="C:\Users\Josue Joseph\Downloads\0x0.jpg"
+            width="400"
+            height="400">
+        </center>
+    </body>
+</html>
