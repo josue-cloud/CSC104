@@ -1,0 +1,42 @@
+body {
+			
+}
+/* h1 class controls the "legal information intitute" part of the webpage*/
+h1 {
+	text-align: left;
+	color: black;
+	background-color: #89cff0;
+	font-size: 60px;
+	font-weight: lighter;
+	text-indent: 10%;
+
+}
+/*controls all headers within your webpage*/
+.header {
+	text-align: left;
+	font-size: 30px;
+	font-weight: 800;
+	color: hsl(199, 77%, 74%);
+	margin-left: 20%;
+	margin-right: 20%;
+}
+/*controls all the text elemets under the numbered sections*/
+p {
+	text-align: left;
+	font-size: 24px;
+	border-width: medium;
+	border-color: #89cff0;
+	margin-left: 20%;
+	margin-right: 30%
+}
+.highlight {
+	background-color: antiquewhite;
+}
+.vertical-menu {
+	float: right;
+	font-size: 25px;
+	color: black;
+	margin-top: 1%;
+	margin-right: 1%;
+	text-decoration-color: black;
+}
