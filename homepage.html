@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Project idea</title>
+		<meta charset="UTF-8">
+
+	</head>
+	
+    <body>
+        <div class="navbar">
+            <input type="text" class="search" placeholder="Search Library..">
+            <h1 class="dashboard">Dashboard</h1>
+        </div>
+        <p class="list">To-do List</p>
+        <div class="sidebar">
+                <a href="profile.html"><img src="profile-user.png" class="profileIcon"></a>
+                
+                <p class="iconNames">Dashboard</p>
+                <a href="homepage.html"><img src="dashboard.png" alt="dashboard icon" class="icon"></a>
+                
+                <p class="iconNames">Courses</p>
+                <a href="books.html"><img src="book.png" alt="book icon" class="icon"></a>
+                
+                <p class="iconNames">Chat Room</p>
+                <a href="groups.html"><img src="group.png" alt="Group Icon" class="icon"></a>
+                
+                <p class="iconNames">Calendar</p>
+                <a href="calendar.html"><img src="calendar.png" alt="Calendar Icon" class="icon"></a>
+                
+                <p class="iconNames">Inbox</p>
+                <a href="inbox.html"><img src="messages.png" alt="Inbox Icon" class="icon"></a>
+                
+                <p class="iconNames">History</p>
+                <a href="history.html"><img src="history.png" alt="History Icon" class="icon"> </a>
+                
+                <p class="iconNames">Help</p>
+                <a href="help.html"><img src="help-web-button.png" alt="Help Icon" class="icon"></a>
+                
+                
+        </div>
+    <section class="moduleLeft">
+        <div class="module"><p>Course 1: Science</p><p>Upcoming Assignments:</p><p>Grade:</p></div>
+        <div class="module"><p>Course 2: Math</p><p>Upcoming Assignments:</p><p>Grade:</div>
+    </section>
+    <section class="moduleRight">
+        <div class="module"><p>Course 3: History</p><p>Upcoming Assignments:</p><p>Grade:</div>
+        <div class="module"><p>Course 4: Literature</p><p>Upcoming Assignments:</p><p>Grade:</div>
+    </section>
+    </body>
+<style src="project.css">
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: left;
+            margin-left: 12%;
+            font-weight: 100;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #c7cdd1;
+            background: #ffffff;
+            box-sizing: border-box;
+        }
+        .list {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+            text-align: center;
+            font-size: 25px;
+            margin-right: 5%;
+            width: 100px;
+            padding: 75px;
+            border: 1px dashed rgb(0, 0, 0);
+            background-color: #ffffff;
+            border-radius: 5px;
+            height: 1000px;
+            float: right;
+
+        }
+        .module {
+            margin: auto;
+            width: 250pt;
+            border: 1px;
+            height: 200px;
+            padding: 10px;
+            background-color: #fff1be;
+            margin-left: 10%;
+            margin-bottom: 5%;
+            border-radius: 25px;
+            left: 80px;
+            top: 2px;
+            box-shadow: 10px 10px #c5c5c5;
+            font-size: 15pt;
+        }
+        .sidebar {
+            width: 150px;
+            height: 100%;
+            position: fixed;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #c8efff;
+            float: left;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 14pt;
+            
+        }
+        .search {
+            float: right;
+            padding: 6px;
+            border: 1px;
+            border-style: solid;
+            border-color: #c8efff;
+            border-width: 6px;
+            margin-top: 20px;
+            margin-right: 16px;
+            font-size: 17px;
+            width: 250px;
+            margin-right: 5%;
+            background-size: 20%;
+
+        }
+        .moduleLeft {
+            float: left;
+            margin-left: 10%;
+            line-break: auto;
+        }
+        .moduleRight {
+            float: right;
+            margin-right: 10%;
+            line-break: auto;
+        }
+        .profileIcon {
+            width: 55px;
+            height: 55px;
+
+        }
+        .profileIcon:hover {
+            width: 60px;
+            height: 60px;
+            color: #a1e4ff;
+            background-color: #c8efff;
+            -webkit-transition: background-color 1000ms linear;
+            -ms-transition: background-color 1000ms linear;
+            transition: background-color 1000ms linear;
+        }
+        .icon {
+            width: 35px;
+            height: 35px;
+        }
+        .logout {
+            width: 40px;
+            height: 40px;
+            margin-top: 50%;
+        }
+        .dashboard {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50pt;
+            font-weight: 60;
+            color: black;
+            text-indent: 1%;
+        }
+
+        .icon:hover  {
+            color: #c8efff;
+            background-color: #c8efff;
+            -webkit-transition: background-color 1000ms linear;
+            -ms-transition: background-color 1000ms linear;
+            transition: background-color 1000ms linear;
+            
+        }
+        .navbar {
+            margin-top: 0%;
+        }
+</style>
+    <script src="icons.json"></script>
+</html>
